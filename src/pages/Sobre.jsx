@@ -1,11 +1,9 @@
-import Section from "../components/section";
+import Section from "../components/Section"
 
-const Sobre = () => {
-  return (
-    <section titulo="Página Sobre">
-      <p>Conteúdo página Sobre.</p>
-    </section>
-  );
-};
-
-export default Sobre;
+export default function Sobre() {
+    return(
+        <Section titulo="Página Sobre">
+            <p>Conteudo da página Sobre</p>
+        </Section>
+    )
+}

@@ -1,11 +1,9 @@
-import Section from "../components/section";
+import Section from "../components/Section"
 
-const Home = () => {
-  return (
-    <section titulo="Home">
-      <p>Conteúdo página Home.</p>
-    </section>
-  );
-};
-
-export default Home;
+export default function Home() {
+    return(
+        <Section titulo="Página Inicial">
+            <p>Conteudo da página inicial</p>
+        </Section>
+    )
+}

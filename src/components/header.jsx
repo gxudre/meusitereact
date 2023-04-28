@@ -1,29 +1,23 @@
-export default function Header() {
-  return (
-    <header>
-      <h1>Coffee Gang</h1>
+import { NavLink, useNavigate } from "react-router-dom";
 
+export default function Header(props) {
+  const navigate = useNavigate()
+
+  function handleClick(event) {
+    props.onLogout()
+    navigate("/login")
+  }
+    return(
+        <header>
       <nav>
         <ul>
-          <li>
-            <a href="#">
-              <img src="C:\Users\2214290016\Desktop\meusitereact\src\assets\LogoCoffeeGang.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">Sobre</a>
-          </li>
-          <li>
-            <a href="#">Produtos</a>
-          </li>
-          <li>
-            <a href="#">Planos</a>
-          </li>
-          <li>
-            <a href="#">Login</a>
-          </li>
+          <li><NavLink to="/"><img src="LogoCoffeeGang.png"/></NavLink></li>
+          <li><NavLink to="/pedidos">Meus Pedidos</NavLink></li>
+          <li><NavLink to="/novo">Novo Pedido</NavLink></li>
+          <li><NavLink to="/sobre">Sobre</NavLink></li>
+          <li><button onClick={handleClick}>Sair</button></li>
         </ul>
       </nav>
     </header>
-  );
+    )
 }
