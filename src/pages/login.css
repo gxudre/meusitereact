@@ -1,0 +1,56 @@
+.login-padrin {
+  background-color: #260c2d;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+}
+
+.login-padrin h1 {
+  padding-top: 100px;
+  padding-left: 100px;
+  color: white;
+}
+
+.FormLogin {
+  background-color: #5015bd;
+  padding-left: 100px;
+  gap: 40px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 2fr;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  top: 250px;
+  left: 35%;
+  margin-bottom: 300px;
+  position: relative;
+}
+
+section input {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+section Button {
+  font-size: 25px;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+  justify-content: space-between;
+  background-color: #00caf8;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+section button:hover {
+  transition: 0.3;
+  background-color: #0a748ce4;
+}

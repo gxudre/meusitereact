@@ -1,0 +1,46 @@
+.container00 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  background-color: #260c2d;
+}
+
+.imgbonde {
+  grid-column: 2/3;
+}
+
+.texto1 {
+  grid-column: 1/2;
+  color: white;
+  padding-top: 30px;
+  padding: 40px;
+  padding-left: 100px;
+  text-align: right;
+  position: relative;
+  gap: 20px;
+  align-content: center;
+  justify-items: start;
+  line-height: 1.5;
+}
+
+.container01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.imgoutfit {
+  grid-column: 1/2;
+}
+
+.texto2 {
+  grid-column: 2/3;
+  padding: 40px;
+  padding-left: 100px;
+  text-align: right;
+  position: relative;
+  gap: 20px;
+  align-content: center;
+  justify-items: start;
+  line-height: 1.5;
+}
