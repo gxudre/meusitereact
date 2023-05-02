@@ -37,6 +37,12 @@ section input {
   width: 300px;
 }
 
+.forgot {
+  display: flex;
+  padding-left: 230px;
+  padding-top: 5px;
+}
+
 section Button {
   font-size: 25px;
   gap: 20px;

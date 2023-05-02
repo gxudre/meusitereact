@@ -44,7 +44,9 @@ export default function Login(props) {
               onFocus={handleFocus}
               onBlur={handleBlur}
             />
+            <span class="forgot">esqueceu o e-mail?</span>
             <input type="password" placeholder="Senha" />
+            <span class="forgot">esqueceu a senha?</span>
             <button onClick={handleClick}>Entrar</button>
             <button>Criar Conta</button>
           </Section>

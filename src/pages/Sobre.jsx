@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import Section from "../components/Section";
 import "./sobre.css";
+import BondeCoffee from "../../public/BondeCoffee01.png";
+import LojaFisica from "../assets/LojaFisicaSobre.png";
 
 export default function Sobre() {
   const { id } = useParams();
@@ -10,7 +12,7 @@ export default function Sobre() {
       <Section titulo="">
         <div class="container00">
           <div class="img-bonde">
-            <img src="BondeCoffee01.png" />
+            <img src={BondeCoffee} />
           </div>
           <div class="texto1">
             <h1>A Consagrada Histótia!</h1>
@@ -29,7 +31,7 @@ export default function Sobre() {
         </div>
         <div class="container01">
           <div class="imgoutfit">
-            <img src="LojaFisicaSobre.png" />
+            <img src={LojaFisica} />
           </div>
           <div class="texto2">
             <p>

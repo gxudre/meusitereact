@@ -5,7 +5,7 @@
   background-color: #260c2d;
 }
 
-.imgbonde {
+.img-bonde {
   grid-column: 2/3;
 }
 
@@ -27,6 +27,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .imgoutfit {
@@ -34,10 +36,11 @@
 }
 
 .texto2 {
+  font-size: 25px;
   grid-column: 2/3;
-  padding: 40px;
+  padding: 30px;
   padding-left: 100px;
-  text-align: right;
+  text-align: left;
   position: relative;
   gap: 20px;
   align-content: center;
